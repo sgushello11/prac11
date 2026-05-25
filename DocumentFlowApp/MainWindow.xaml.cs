@@ -23,7 +23,6 @@ namespace DocumentFlowApp
             tbUser.Text = login;
             tbRole.Text = role;
 
-            // Настройка видимости кнопок в зависимости от роли
             if (role == "Admin")
             {
                 btnAdd.IsEnabled = true;
@@ -34,9 +33,9 @@ namespace DocumentFlowApp
             {
                 btnAdd.IsEnabled = true;
                 btnEdit.IsEnabled = true;
-                btnDelete.IsEnabled = false; // Оператор не удаляет
+                btnDelete.IsEnabled = false;
             }
-            else // Viewer
+            else
             {
                 btnAdd.IsEnabled = false;
                 btnEdit.IsEnabled = false;
@@ -46,7 +45,6 @@ namespace DocumentFlowApp
             LoadDocuments();
         }
 
-        // Загрузка всех документов
         private void LoadDocuments()
         {
             try
@@ -54,10 +52,18 @@ namespace DocumentFlowApp
                 using (var conn = DatabaseHelper.GetConnection())
                 {
                     conn.Open();
-                    string sql = @"SELECT d.*, e.FullName as EmployeeName 
-                           FROM Documents d
-                           JOIN Employees e ON d.EmployeeId = e.Id
-                           ORDER BY d.Id";
+                    string sql = @"SELECT d.Id, 
+                                          dt.TypeName as DocType,
+                                          d.DocNumber,
+                                          d.DocDate,
+                                          d.DocTime,
+                                          d.Counterparty,
+                                          e.FullName as EmployeeName,
+                                          d.Subject
+                                   FROM Documents d
+                                   JOIN DocumentTypes dt ON d.DocTypeId = dt.Id
+                                   JOIN Employees e ON d.EmployeeId = e.Id
+                                   ORDER BY d.Id";
                     SqlDataAdapter adapter = new SqlDataAdapter(sql, conn);
                     DataTable dt = new DataTable();
                     adapter.Fill(dt);
@@ -70,7 +76,6 @@ namespace DocumentFlowApp
             }
         }
 
-        // Поиск по номеру
         private void btnSearch_Click(object sender, RoutedEventArgs e)
         {
             string searchNumber = txtSearchNumber.Text.Trim();
@@ -85,11 +90,19 @@ namespace DocumentFlowApp
                 using (var conn = DatabaseHelper.GetConnection())
                 {
                     conn.Open();
-                    string sql = $@"SELECT d.*, e.FullName as EmployeeName 
+                    string sql = $@"SELECT d.Id, 
+                                          dt.TypeName as DocType,
+                                          d.DocNumber,
+                                          d.DocDate,
+                                          d.DocTime,
+                                          d.Counterparty,
+                                          e.FullName as EmployeeName,
+                                          d.Subject
                                    FROM Documents d
+                                   JOIN DocumentTypes dt ON d.DocTypeId = dt.Id
                                    JOIN Employees e ON d.EmployeeId = e.Id
                                    WHERE d.DocNumber LIKE '%{searchNumber}%'
-                                   ORDER BY d.DocDate DESC";
+                                   ORDER BY d.Id";
                     SqlDataAdapter adapter = new SqlDataAdapter(sql, conn);
                     DataTable dt = new DataTable();
                     adapter.Fill(dt);
@@ -102,42 +115,12 @@ namespace DocumentFlowApp
             }
         }
 
-        // Сброс поиска
         private void btnClear_Click(object sender, RoutedEventArgs e)
         {
             txtSearchNumber.Text = "";
             LoadDocuments();
         }
 
-        // Статистика
-        private void btnStats_Click(object sender, RoutedEventArgs e)
-        {
-            try
-            {
-                using (var conn = DatabaseHelper.GetConnection())
-                {
-                    conn.Open();
-                    string sql = @"SELECT DocType, COUNT(*) as Count 
-                                   FROM Documents 
-                                   GROUP BY DocType";
-                    SqlCommand cmd = new SqlCommand(sql, conn);
-                    SqlDataReader reader = cmd.ExecuteReader();
-                    string stats = "Статистика документов:\n";
-                    while (reader.Read())
-                    {
-                        stats += $"{reader["DocType"]}: {reader["Count"]} шт.\n";
-                    }
-                    reader.Close();
-                    MessageBox.Show(stats, "Статистика");
-                }
-            }
-            catch (Exception ex)
-            {
-                MessageBox.Show("Ошибка: " + ex.Message);
-            }
-        }
-
-        // Добавление документа
         private void btnAdd_Click(object sender, RoutedEventArgs e)
         {
             DocumentEditWindow editWindow = new DocumentEditWindow(null, _employeeId);
@@ -147,7 +130,6 @@ namespace DocumentFlowApp
             }
         }
 
-        // Редактирование документа
         private void btnEdit_Click(object sender, RoutedEventArgs e)
         {
             if (dgDocuments.SelectedItem == null)
@@ -165,7 +147,6 @@ namespace DocumentFlowApp
             }
         }
 
-        // Удаление документа
         private void btnDelete_Click(object sender, RoutedEventArgs e)
         {
             if (dgDocuments.SelectedItem == null)

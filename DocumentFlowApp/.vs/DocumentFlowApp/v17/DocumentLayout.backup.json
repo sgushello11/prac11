@@ -1,45 +1,45 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\\u041A\u043E\u043B\u043B\u0435\u0434\u0436\\\u041F\u0440\u043E\u0438\u0437\u0432\u043E\u0434\u0441\u0442\u0432\u0435\u043D\u043D\u0430\u044F \u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\\u041F\u041C 11\\DocumentFlowApp\\",
+  "WorkspaceRootPath": "C:\\Users\\win11\\OneDrive\\\u6587\u6863\\GitHub\\prac11\\DocumentFlowApp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{6DB4E168-EA7D-4077-9048-A64476E36F45}|DocumentFlowApp.csproj|d:\\\u043A\u043E\u043B\u043B\u0435\u0434\u0436\\\u043F\u0440\u043E\u0438\u0437\u0432\u043E\u0434\u0441\u0442\u0432\u0435\u043D\u043D\u0430\u044F \u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\\u043F\u043C 11\\documentflowapp\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6DB4E168-EA7D-4077-9048-A64476E36F45}|DocumentFlowApp.csproj|solutionrelative:mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6DB4E168-EA7D-4077-9048-A64476E36F45}|DocumentFlowApp.csproj|d:\\\u043A\u043E\u043B\u043B\u0435\u0434\u0436\\\u043F\u0440\u043E\u0438\u0437\u0432\u043E\u0434\u0441\u0442\u0432\u0435\u043D\u043D\u0430\u044F \u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\\u043F\u043C 11\\documentflowapp\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6DB4E168-EA7D-4077-9048-A64476E36F45}|DocumentFlowApp.csproj|solutionrelative:app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6DB4E168-EA7D-4077-9048-A64476E36F45}|DocumentFlowApp.csproj|d:\\\u043A\u043E\u043B\u043B\u0435\u0434\u0436\\\u043F\u0440\u043E\u0438\u0437\u0432\u043E\u0434\u0441\u0442\u0432\u0435\u043D\u043D\u0430\u044F \u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\\u043F\u043C 11\\documentflowapp\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{6DB4E168-EA7D-4077-9048-A64476E36F45}|DocumentFlowApp.csproj|solutionrelative:app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6DB4E168-EA7D-4077-9048-A64476E36F45}|DocumentFlowApp.csproj|d:\\\u043A\u043E\u043B\u043B\u0435\u0434\u0436\\\u043F\u0440\u043E\u0438\u0437\u0432\u043E\u0434\u0441\u0442\u0432\u0435\u043D\u043D\u0430\u044F \u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\\u043F\u043C 11\\documentflowapp\\documenteditwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{6DB4E168-EA7D-4077-9048-A64476E36F45}|DocumentFlowApp.csproj|solutionrelative:documenteditwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6DB4E168-EA7D-4077-9048-A64476E36F45}|DocumentFlowApp.csproj|d:\\\u043A\u043E\u043B\u043B\u0435\u0434\u0436\\\u043F\u0440\u043E\u0438\u0437\u0432\u043E\u0434\u0441\u0442\u0432\u0435\u043D\u043D\u0430\u044F \u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\\u043F\u043C 11\\documentflowapp\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{6DB4E168-EA7D-4077-9048-A64476E36F45}|DocumentFlowApp.csproj|C:\\Users\\win11\\OneDrive\\\u6587\u6863\\GitHub\\prac11\\DocumentFlowApp\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{6DB4E168-EA7D-4077-9048-A64476E36F45}|DocumentFlowApp.csproj|solutionrelative:mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6DB4E168-EA7D-4077-9048-A64476E36F45}|DocumentFlowApp.csproj|d:\\\u043A\u043E\u043B\u043B\u0435\u0434\u0436\\\u043F\u0440\u043E\u0438\u0437\u0432\u043E\u0434\u0441\u0442\u0432\u0435\u043D\u043D\u0430\u044F \u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\\u043F\u043C 11\\documentflowapp\\documenteditwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{6DB4E168-EA7D-4077-9048-A64476E36F45}|DocumentFlowApp.csproj|C:\\Users\\win11\\OneDrive\\\u6587\u6863\\GitHub\\prac11\\DocumentFlowApp\\documenteditwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{6DB4E168-EA7D-4077-9048-A64476E36F45}|DocumentFlowApp.csproj|solutionrelative:documenteditwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6DB4E168-EA7D-4077-9048-A64476E36F45}|DocumentFlowApp.csproj|C:\\Users\\win11\\OneDrive\\\u6587\u6863\\GitHub\\prac11\\DocumentFlowApp\\documenteditwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6DB4E168-EA7D-4077-9048-A64476E36F45}|DocumentFlowApp.csproj|solutionrelative:documenteditwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6DB4E168-EA7D-4077-9048-A64476E36F45}|DocumentFlowApp.csproj|d:\\\u043A\u043E\u043B\u043B\u0435\u0434\u0436\\\u043F\u0440\u043E\u0438\u0437\u0432\u043E\u0434\u0441\u0442\u0432\u0435\u043D\u043D\u0430\u044F \u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\\u043F\u043C 11\\documentflowapp\\loginwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{6DB4E168-EA7D-4077-9048-A64476E36F45}|DocumentFlowApp.csproj|c:\\users\\win11\\onedrive\\\u6587\u6863\\github\\prac11\\documentflowapp\\loginwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6DB4E168-EA7D-4077-9048-A64476E36F45}|DocumentFlowApp.csproj|solutionrelative:loginwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6DB4E168-EA7D-4077-9048-A64476E36F45}|DocumentFlowApp.csproj|d:\\\u043A\u043E\u043B\u043B\u0435\u0434\u0436\\\u043F\u0440\u043E\u0438\u0437\u0432\u043E\u0434\u0441\u0442\u0432\u0435\u043D\u043D\u0430\u044F \u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\\u043F\u043C 11\\documentflowapp\\databasehelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{6DB4E168-EA7D-4077-9048-A64476E36F45}|DocumentFlowApp.csproj|C:\\Users\\win11\\OneDrive\\\u6587\u6863\\GitHub\\prac11\\DocumentFlowApp\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6DB4E168-EA7D-4077-9048-A64476E36F45}|DocumentFlowApp.csproj|solutionrelative:mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6DB4E168-EA7D-4077-9048-A64476E36F45}|DocumentFlowApp.csproj|C:\\Users\\win11\\OneDrive\\\u6587\u6863\\GitHub\\prac11\\DocumentFlowApp\\databasehelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6DB4E168-EA7D-4077-9048-A64476E36F45}|DocumentFlowApp.csproj|solutionrelative:databasehelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6DB4E168-EA7D-4077-9048-A64476E36F45}|DocumentFlowApp.csproj|d:\\\u043A\u043E\u043B\u043B\u0435\u0434\u0436\\\u043F\u0440\u043E\u0438\u0437\u0432\u043E\u0434\u0441\u0442\u0432\u0435\u043D\u043D\u0430\u044F \u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\\u043F\u043C 11\\documentflowapp\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "AbsoluteMoniker": "D:0:0:{6DB4E168-EA7D-4077-9048-A64476E36F45}|DocumentFlowApp.csproj|C:\\Users\\win11\\OneDrive\\\u6587\u6863\\GitHub\\prac11\\DocumentFlowApp\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6DB4E168-EA7D-4077-9048-A64476E36F45}|DocumentFlowApp.csproj|solutionrelative:app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6DB4E168-EA7D-4077-9048-A64476E36F45}|DocumentFlowApp.csproj|C:\\Users\\win11\\OneDrive\\\u6587\u6863\\GitHub\\prac11\\DocumentFlowApp\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{6DB4E168-EA7D-4077-9048-A64476E36F45}|DocumentFlowApp.csproj|solutionrelative:app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6DB4E168-EA7D-4077-9048-A64476E36F45}|DocumentFlowApp.csproj|C:\\Users\\win11\\OneDrive\\\u6587\u6863\\GitHub\\prac11\\DocumentFlowApp\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
       "RelativeMoniker": "D:0:0:{6DB4E168-EA7D-4077-9048-A64476E36F45}|DocumentFlowApp.csproj|solutionrelative:app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6DB4E168-EA7D-4077-9048-A64476E36F45}|DocumentFlowApp.csproj|d:\\\u043A\u043E\u043B\u043B\u0435\u0434\u0436\\\u043F\u0440\u043E\u0438\u0437\u0432\u043E\u0434\u0441\u0442\u0432\u0435\u043D\u043D\u0430\u044F \u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\\u043F\u043C 11\\documentflowapp\\loginwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{6DB4E168-EA7D-4077-9048-A64476E36F45}|DocumentFlowApp.csproj|C:\\Users\\win11\\OneDrive\\\u6587\u6863\\GitHub\\prac11\\DocumentFlowApp\\loginwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{6DB4E168-EA7D-4077-9048-A64476E36F45}|DocumentFlowApp.csproj|solutionrelative:loginwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     }
   ],
@@ -50,54 +50,51 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 8,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 5,
               "Title": "DatabaseHelper.cs",
-              "DocumentMoniker": "D:\\\u041A\u043E\u043B\u043B\u0435\u0434\u0436\\\u041F\u0440\u043E\u0438\u0437\u0432\u043E\u0434\u0441\u0442\u0432\u0435\u043D\u043D\u0430\u044F \u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\\u041F\u041C 11\\DocumentFlowApp\\DatabaseHelper.cs",
+              "DocumentMoniker": "C:\\Users\\win11\\OneDrive\\\u6587\u6863\\GitHub\\prac11\\DocumentFlowApp\\DatabaseHelper.cs",
               "RelativeDocumentMoniker": "DatabaseHelper.cs",
-              "ToolTip": "D:\\\u041A\u043E\u043B\u043B\u0435\u0434\u0436\\\u041F\u0440\u043E\u0438\u0437\u0432\u043E\u0434\u0441\u0442\u0432\u0435\u043D\u043D\u0430\u044F \u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\\u041F\u041C 11\\DocumentFlowApp\\DatabaseHelper.cs",
+              "ToolTip": "C:\\Users\\win11\\OneDrive\\\u6587\u6863\\GitHub\\prac11\\DocumentFlowApp\\DatabaseHelper.cs",
               "RelativeToolTip": "DatabaseHelper.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-24T17:18:48.459Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-24T17:18:48.459Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 8,
               "Title": "App.config",
-              "DocumentMoniker": "D:\\\u041A\u043E\u043B\u043B\u0435\u0434\u0436\\\u041F\u0440\u043E\u0438\u0437\u0432\u043E\u0434\u0441\u0442\u0432\u0435\u043D\u043D\u0430\u044F \u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\\u041F\u041C 11\\DocumentFlowApp\\App.config",
+              "DocumentMoniker": "C:\\Users\\win11\\OneDrive\\\u6587\u6863\\GitHub\\prac11\\DocumentFlowApp\\App.config",
               "RelativeDocumentMoniker": "App.config",
-              "ToolTip": "D:\\\u041A\u043E\u043B\u043B\u0435\u0434\u0436\\\u041F\u0440\u043E\u0438\u0437\u0432\u043E\u0434\u0441\u0442\u0432\u0435\u043D\u043D\u0430\u044F \u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\\u041F\u041C 11\\DocumentFlowApp\\App.config",
+              "ToolTip": "C:\\Users\\win11\\OneDrive\\\u6587\u6863\\GitHub\\prac11\\DocumentFlowApp\\App.config",
               "RelativeToolTip": "App.config",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAABMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
-              "WhenOpened": "2026-05-24T17:16:17.559Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-24T17:16:17.559Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 6,
               "Title": "App.xaml.cs",
-              "DocumentMoniker": "D:\\\u041A\u043E\u043B\u043B\u0435\u0434\u0436\\\u041F\u0440\u043E\u0438\u0437\u0432\u043E\u0434\u0441\u0442\u0432\u0435\u043D\u043D\u0430\u044F \u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\\u041F\u041C 11\\DocumentFlowApp\\App.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\win11\\OneDrive\\\u6587\u6863\\GitHub\\prac11\\DocumentFlowApp\\App.xaml.cs",
               "RelativeDocumentMoniker": "App.xaml.cs",
-              "ToolTip": "D:\\\u041A\u043E\u043B\u043B\u0435\u0434\u0436\\\u041F\u0440\u043E\u0438\u0437\u0432\u043E\u0434\u0441\u0442\u0432\u0435\u043D\u043D\u0430\u044F \u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\\u041F\u041C 11\\DocumentFlowApp\\App.xaml.cs",
+              "ToolTip": "C:\\Users\\win11\\OneDrive\\\u6587\u6863\\GitHub\\prac11\\DocumentFlowApp\\App.xaml.cs",
               "RelativeToolTip": "App.xaml.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-24T17:15:13.452Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-24T17:15:13.452Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 7,
               "Title": "App.xaml",
-              "DocumentMoniker": "D:\\\u041A\u043E\u043B\u043B\u0435\u0434\u0436\\\u041F\u0440\u043E\u0438\u0437\u0432\u043E\u0434\u0441\u0442\u0432\u0435\u043D\u043D\u0430\u044F \u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\\u041F\u041C 11\\DocumentFlowApp\\App.xaml",
+              "DocumentMoniker": "C:\\Users\\win11\\OneDrive\\\u6587\u6863\\GitHub\\prac11\\DocumentFlowApp\\App.xaml",
               "RelativeDocumentMoniker": "App.xaml",
-              "ToolTip": "D:\\\u041A\u043E\u043B\u043B\u0435\u0434\u0436\\\u041F\u0440\u043E\u0438\u0437\u0432\u043E\u0434\u0441\u0442\u0432\u0435\u043D\u043D\u0430\u044F \u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\\u041F\u041C 11\\DocumentFlowApp\\App.xaml",
+              "ToolTip": "C:\\Users\\win11\\OneDrive\\\u6587\u6863\\GitHub\\prac11\\DocumentFlowApp\\App.xaml",
               "RelativeToolTip": "App.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2026-05-24T17:15:12.647Z",
@@ -105,24 +102,24 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 2,
               "Title": "DocumentEditWindow.xaml.cs",
-              "DocumentMoniker": "D:\\\u041A\u043E\u043B\u043B\u0435\u0434\u0436\\\u041F\u0440\u043E\u0438\u0437\u0432\u043E\u0434\u0441\u0442\u0432\u0435\u043D\u043D\u0430\u044F \u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\\u041F\u041C 11\\DocumentFlowApp\\DocumentEditWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\win11\\OneDrive\\\u6587\u6863\\GitHub\\prac11\\DocumentFlowApp\\DocumentEditWindow.xaml.cs",
               "RelativeDocumentMoniker": "DocumentEditWindow.xaml.cs",
-              "ToolTip": "D:\\\u041A\u043E\u043B\u043B\u0435\u0434\u0436\\\u041F\u0440\u043E\u0438\u0437\u0432\u043E\u0434\u0441\u0442\u0432\u0435\u043D\u043D\u0430\u044F \u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\\u041F\u041C 11\\DocumentFlowApp\\DocumentEditWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\win11\\OneDrive\\\u6587\u6863\\GitHub\\prac11\\DocumentFlowApp\\DocumentEditWindow.xaml.cs",
               "RelativeToolTip": "DocumentEditWindow.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAVAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAswFAAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-05-24T17:14:58.338Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "DocumentEditWindow.xaml",
-              "DocumentMoniker": "D:\\\u041A\u043E\u043B\u043B\u0435\u0434\u0436\\\u041F\u0440\u043E\u0438\u0437\u0432\u043E\u0434\u0441\u0442\u0432\u0435\u043D\u043D\u0430\u044F \u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\\u041F\u041C 11\\DocumentFlowApp\\DocumentEditWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\win11\\OneDrive\\\u6587\u6863\\GitHub\\prac11\\DocumentFlowApp\\DocumentEditWindow.xaml",
               "RelativeDocumentMoniker": "DocumentEditWindow.xaml",
-              "ToolTip": "D:\\\u041A\u043E\u043B\u043B\u0435\u0434\u0436\\\u041F\u0440\u043E\u0438\u0437\u0432\u043E\u0434\u0441\u0442\u0432\u0435\u043D\u043D\u0430\u044F \u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\\u041F\u041C 11\\DocumentFlowApp\\DocumentEditWindow.xaml",
+              "ToolTip": "C:\\Users\\win11\\OneDrive\\\u6587\u6863\\GitHub\\prac11\\DocumentFlowApp\\DocumentEditWindow.xaml",
               "RelativeToolTip": "DocumentEditWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2026-05-24T17:14:47.329Z",
@@ -130,24 +127,24 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 3,
               "Title": "LoginWindow.xaml.cs",
-              "DocumentMoniker": "D:\\\u041A\u043E\u043B\u043B\u0435\u0434\u0436\\\u041F\u0440\u043E\u0438\u0437\u0432\u043E\u0434\u0441\u0442\u0432\u0435\u043D\u043D\u0430\u044F \u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\\u041F\u041C 11\\DocumentFlowApp\\LoginWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\win11\\OneDrive\\\u6587\u6863\\GitHub\\prac11\\DocumentFlowApp\\LoginWindow.xaml.cs",
               "RelativeDocumentMoniker": "LoginWindow.xaml.cs",
-              "ToolTip": "D:\\\u041A\u043E\u043B\u043B\u0435\u0434\u0436\\\u041F\u0440\u043E\u0438\u0437\u0432\u043E\u0434\u0441\u0442\u0432\u0435\u043D\u043D\u0430\u044F \u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\\u041F\u041C 11\\DocumentFlowApp\\LoginWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\win11\\OneDrive\\\u6587\u6863\\GitHub\\prac11\\DocumentFlowApp\\LoginWindow.xaml.cs",
               "RelativeToolTip": "LoginWindow.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAVAAAAAAAAAA==",
+              "ViewState": "AgIAABIAAAAAAAAAAAAYwCAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-05-24T17:14:04.229Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 0,
               "Title": "MainWindow.xaml",
-              "DocumentMoniker": "D:\\\u041A\u043E\u043B\u043B\u0435\u0434\u0436\\\u041F\u0440\u043E\u0438\u0437\u0432\u043E\u0434\u0441\u0442\u0432\u0435\u043D\u043D\u0430\u044F \u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\\u041F\u041C 11\\DocumentFlowApp\\MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\win11\\OneDrive\\\u6587\u6863\\GitHub\\prac11\\DocumentFlowApp\\MainWindow.xaml",
               "RelativeDocumentMoniker": "MainWindow.xaml",
-              "ToolTip": "D:\\\u041A\u043E\u043B\u043B\u0435\u0434\u0436\\\u041F\u0440\u043E\u0438\u0437\u0432\u043E\u0434\u0441\u0442\u0432\u0435\u043D\u043D\u0430\u044F \u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\\u041F\u041C 11\\DocumentFlowApp\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\win11\\OneDrive\\\u6587\u6863\\GitHub\\prac11\\DocumentFlowApp\\MainWindow.xaml",
               "RelativeToolTip": "MainWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2026-05-24T17:06:09.264Z",
@@ -155,28 +152,26 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
               "Title": "MainWindow.xaml.cs",
-              "DocumentMoniker": "D:\\\u041A\u043E\u043B\u043B\u0435\u0434\u0436\\\u041F\u0440\u043E\u0438\u0437\u0432\u043E\u0434\u0441\u0442\u0432\u0435\u043D\u043D\u0430\u044F \u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\\u041F\u041C 11\\DocumentFlowApp\\MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\win11\\OneDrive\\\u6587\u6863\\GitHub\\prac11\\DocumentFlowApp\\MainWindow.xaml.cs",
               "RelativeDocumentMoniker": "MainWindow.xaml.cs",
-              "ToolTip": "D:\\\u041A\u043E\u043B\u043B\u0435\u0434\u0436\\\u041F\u0440\u043E\u0438\u0437\u0432\u043E\u0434\u0441\u0442\u0432\u0435\u043D\u043D\u0430\u044F \u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\\u041F\u041C 11\\DocumentFlowApp\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\win11\\OneDrive\\\u6587\u6863\\GitHub\\prac11\\DocumentFlowApp\\MainWindow.xaml.cs",
               "RelativeToolTip": "MainWindow.xaml.cs",
-              "ViewState": "AgIAADEAAAAAAAAAAAA1wEYAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAHEAAAAAAAAAAAAgwLsAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-24T17:06:07.518Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-24T17:06:07.518Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 9,
               "Title": "LoginWindow.xaml",
-              "DocumentMoniker": "D:\\\u041A\u043E\u043B\u043B\u0435\u0434\u0436\\\u041F\u0440\u043E\u0438\u0437\u0432\u043E\u0434\u0441\u0442\u0432\u0435\u043D\u043D\u0430\u044F \u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\\u041F\u041C 11\\DocumentFlowApp\\LoginWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\win11\\OneDrive\\\u6587\u6863\\GitHub\\prac11\\DocumentFlowApp\\LoginWindow.xaml",
               "RelativeDocumentMoniker": "LoginWindow.xaml",
-              "ToolTip": "D:\\\u041A\u043E\u043B\u043B\u0435\u0434\u0436\\\u041F\u0440\u043E\u0438\u0437\u0432\u043E\u0434\u0441\u0442\u0432\u0435\u043D\u043D\u0430\u044F \u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\\u041F\u041C 11\\DocumentFlowApp\\LoginWindow.xaml",
+              "ToolTip": "C:\\Users\\win11\\OneDrive\\\u6587\u6863\\GitHub\\prac11\\DocumentFlowApp\\LoginWindow.xaml",
               "RelativeToolTip": "LoginWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-05-24T17:13:24.754Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-24T17:13:24.754Z"
             }
           ]
         }

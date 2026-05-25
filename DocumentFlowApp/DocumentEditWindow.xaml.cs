@@ -49,12 +49,20 @@ namespace DocumentFlowApp
                 using (var conn = DatabaseHelper.GetConnection())
                 {
                     conn.Open();
-                    string sql = $"SELECT * FROM Documents WHERE Id = {_docId}";
+                    string sql = $@"SELECT d.*, dt.TypeName 
+                           FROM Documents d
+                           JOIN DocumentTypes dt ON d.DocTypeId = dt.Id
+                           WHERE d.Id = {_docId}";
                     SqlCommand cmd = new SqlCommand(sql, conn);
                     SqlDataReader reader = cmd.ExecuteReader();
                     if (reader.Read())
                     {
-                        cmbDocType.Text = reader["DocType"].ToString();
+                        string docType = reader["TypeName"].ToString();
+                        if (docType == "Входящий")
+                            cmbDocType.SelectedIndex = 0;
+                        else if (docType == "Исходящий")
+                            cmbDocType.SelectedIndex = 1;
+
                         txtNumber.Text = reader["DocNumber"].ToString();
                         dpDate.SelectedDate = Convert.ToDateTime(reader["DocDate"]);
                         txtTime.Text = reader["DocTime"].ToString();
@@ -63,6 +71,7 @@ namespace DocumentFlowApp
                         txtSubject.Text = reader["Subject"].ToString();
                         txtContent.Text = reader["Content"].ToString();
                     }
+                    reader.Close();
                 }
             }
             catch (Exception ex)
@@ -76,6 +85,8 @@ namespace DocumentFlowApp
             try
             {
                 string docType = ((System.Windows.Controls.ComboBoxItem)cmbDocType.SelectedItem)?.Content.ToString();
+                int docTypeId = docType == "Входящий" ? 1 : 2;
+
                 if (string.IsNullOrEmpty(docType) || string.IsNullOrEmpty(txtNumber.Text) ||
                     dpDate.SelectedDate == null || string.IsNullOrEmpty(txtCounterparty.Text) ||
                     cmbEmployee.SelectedValue == null)
@@ -84,6 +95,11 @@ namespace DocumentFlowApp
                     return;
                 }
 
+                string subject = txtSubject.Text.Replace("'", "''");
+                string content = txtContent.Text.Replace("'", "''");
+                string counterparty = txtCounterparty.Text.Replace("'", "''");
+                string docNumber = txtNumber.Text.Replace("'", "''");
+
                 using (var conn = DatabaseHelper.GetConnection())
                 {
                     conn.Open();
@@ -91,22 +107,22 @@ namespace DocumentFlowApp
                     if (_docId.HasValue)
                     {
                         sql = $@"UPDATE Documents SET 
-                                DocType = '{docType}',
-                                DocNumber = '{txtNumber.Text}',
-                                DocDate = '{dpDate.SelectedDate.Value:yyyy-MM-dd}',
-                                DocTime = '{txtTime.Text}',
-                                Counterparty = '{txtCounterparty.Text}',
-                                EmployeeId = {cmbEmployee.SelectedValue},
-                                Subject = '{txtSubject.Text}',
-                                Content = '{txtContent.Text}'
-                                WHERE Id = {_docId}";
+                        DocTypeId = {docTypeId},
+                        DocNumber = N'{docNumber}',
+                        DocDate = '{dpDate.SelectedDate.Value:yyyy-MM-dd}',
+                        DocTime = '{txtTime.Text}',
+                        Counterparty = N'{counterparty}',
+                        EmployeeId = {cmbEmployee.SelectedValue},
+                        Subject = N'{subject}',
+                        Content = N'{content}'
+                        WHERE Id = {_docId}";
                     }
                     else
                     {
-                        sql = $@"INSERT INTO Documents (DocType, DocNumber, DocDate, DocTime, Counterparty, EmployeeId, Subject, Content)
-                                VALUES ('{docType}', '{txtNumber.Text}', '{dpDate.SelectedDate.Value:yyyy-MM-dd}', 
-                                        '{txtTime.Text}', '{txtCounterparty.Text}', {cmbEmployee.SelectedValue}, 
-                                        '{txtSubject.Text}', '{txtContent.Text}')";
+                        sql = $@"INSERT INTO Documents (DocTypeId, DocNumber, DocDate, DocTime, Counterparty, EmployeeId, Subject, Content)
+                        VALUES ({docTypeId}, N'{docNumber}', '{dpDate.SelectedDate.Value:yyyy-MM-dd}', 
+                                '{txtTime.Text}', N'{counterparty}', {cmbEmployee.SelectedValue}, 
+                                N'{subject}', N'{content}')";
                     }
                     SqlCommand cmd = new SqlCommand(sql, conn);
                     cmd.ExecuteNonQuery();
