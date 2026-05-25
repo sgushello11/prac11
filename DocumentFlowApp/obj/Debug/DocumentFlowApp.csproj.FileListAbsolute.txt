@@ -19,3 +19,25 @@ D:\Колледж\Производственная практика\ПМ 11\Docu
 D:\Колледж\Производственная практика\ПМ 11\DocumentFlowApp\obj\Debug\Document.359AF2C1.Up2Date
 D:\Колледж\Производственная практика\ПМ 11\DocumentFlowApp\obj\Debug\DocumentFlowApp.exe
 D:\Колледж\Производственная практика\ПМ 11\DocumentFlowApp\obj\Debug\DocumentFlowApp.pdb
+C:\Users\win11\OneDrive\文档\GitHub\prac11\DocumentFlowApp\bin\Debug\DocumentFlowApp.exe.config
+C:\Users\win11\OneDrive\文档\GitHub\prac11\DocumentFlowApp\bin\Debug\DocumentFlowApp.exe
+C:\Users\win11\OneDrive\文档\GitHub\prac11\DocumentFlowApp\bin\Debug\DocumentFlowApp.pdb
+C:\Users\win11\OneDrive\文档\GitHub\prac11\DocumentFlowApp\bin\Debug\System.Data.SqlClient.dll
+C:\Users\win11\OneDrive\文档\GitHub\prac11\DocumentFlowApp\bin\Debug\System.Data.SqlClient.xml
+C:\Users\win11\OneDrive\文档\GitHub\prac11\DocumentFlowApp\obj\Debug\DocumentFlowApp.csproj.AssemblyReference.cache
+C:\Users\win11\OneDrive\文档\GitHub\prac11\DocumentFlowApp\obj\Debug\DocumentFlowApp.exe.config
+C:\Users\win11\OneDrive\文档\GitHub\prac11\DocumentFlowApp\obj\Debug\DocumentEditWindow.baml
+C:\Users\win11\OneDrive\文档\GitHub\prac11\DocumentFlowApp\obj\Debug\LoginWindow.baml
+C:\Users\win11\OneDrive\文档\GitHub\prac11\DocumentFlowApp\obj\Debug\MainWindow.baml
+C:\Users\win11\OneDrive\文档\GitHub\prac11\DocumentFlowApp\obj\Debug\DocumentEditWindow.g.cs
+C:\Users\win11\OneDrive\文档\GitHub\prac11\DocumentFlowApp\obj\Debug\LoginWindow.g.cs
+C:\Users\win11\OneDrive\文档\GitHub\prac11\DocumentFlowApp\obj\Debug\MainWindow.g.cs
+C:\Users\win11\OneDrive\文档\GitHub\prac11\DocumentFlowApp\obj\Debug\App.g.cs
+C:\Users\win11\OneDrive\文档\GitHub\prac11\DocumentFlowApp\obj\Debug\DocumentFlowApp_MarkupCompile.cache
+C:\Users\win11\OneDrive\文档\GitHub\prac11\DocumentFlowApp\obj\Debug\DocumentFlowApp.g.resources
+C:\Users\win11\OneDrive\文档\GitHub\prac11\DocumentFlowApp\obj\Debug\DocumentFlowApp.Properties.Resources.resources
+C:\Users\win11\OneDrive\文档\GitHub\prac11\DocumentFlowApp\obj\Debug\DocumentFlowApp.csproj.GenerateResource.cache
+C:\Users\win11\OneDrive\文档\GitHub\prac11\DocumentFlowApp\obj\Debug\DocumentFlowApp.csproj.CoreCompileInputs.cache
+C:\Users\win11\OneDrive\文档\GitHub\prac11\DocumentFlowApp\obj\Debug\Document.359AF2C1.Up2Date
+C:\Users\win11\OneDrive\文档\GitHub\prac11\DocumentFlowApp\obj\Debug\DocumentFlowApp.exe
+C:\Users\win11\OneDrive\文档\GitHub\prac11\DocumentFlowApp\obj\Debug\DocumentFlowApp.pdb
